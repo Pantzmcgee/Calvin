@@ -3,6 +3,8 @@ WindowsStandalone
 c684eef9533badb537bb98cdf8e5aa6e Assembly-CSharp.dll:.PlayerController
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.endofLevelOne
 84d10ef512e92e48dd10b7e92a2c09f0 Assembly-CSharp.dll:.Audio_Trigger
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.End_Level_Two
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.End_LevelOne
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 5f2ad81aa8994e8fbe25d1e57afe6773 UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 64eb32cc721b1cc68a91ed57461e188c UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
@@ -10,4 +12,7 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingRenderer
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.CrateController
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.End_LevelOne
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.End_Level_Three
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Credit_to_Menu
+6529a776ea9dcec1097063cc3e3ec04c Assembly-CSharp.dll:.Menu_ToggleControl
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Thanks_to_Menu
