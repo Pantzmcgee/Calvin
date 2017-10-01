@@ -18,6 +18,10 @@ public class PlayerController : MonoBehaviour
     private float lastDistance;
     private bool liftPressed = false;
 
+    //Animator variable
+    public Animator Calvin_Animate;
+    public SpriteRenderer Calvin_Sprite;
+
     private void Start()
     {
         body = this.GetComponent<Rigidbody2D>();
@@ -56,18 +60,23 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKey(KeyCode.D))
         {
+            Calvin_Animate.SetInteger("State", 1);
+            Calvin_Sprite.flipX = false;
             currVelocity.x = speed;
             body.velocity = currVelocity;
             facingRight = true;
         }
         else if (Input.GetKey(KeyCode.A))
         {
+            Calvin_Animate.SetInteger("State", 1);
+            Calvin_Sprite.flipX = true;
             currVelocity.x = -speed;
             body.velocity = currVelocity;
             facingRight = false;
         }
         else
         {
+            Calvin_Animate.SetInteger("State", 0);
             currVelocity.x = 0;
             body.velocity = currVelocity;
         }
@@ -76,6 +85,7 @@ public class PlayerController : MonoBehaviour
         {
             if (grounded)
             {
+                Calvin_Animate.SetInteger("State", 2);
                 lastDistance = 100f;
                 body.AddForce(Vector2.up * jumpForce);
             }
