@@ -2149,7 +2149,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4769879136716622, guid: 73de178e442d17948946dc195e28dd97, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -1.7769308
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 4769879136716622, guid: 73de178e442d17948946dc195e28dd97, type: 2}
       propertyPath: m_LocalPosition.z
@@ -4176,7 +4176,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_BackGroundColor: {r: 0.13333334, g: 0.1254902, b: 0.20392157, a: 1}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -4187,7 +4187,7 @@ Camera:
   far clip plane: 1000
   field of view: 4
   orthographic: 1
-  orthographic size: 6
+  orthographic size: 10
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
